@@ -1,0 +1,50 @@
+locator.click: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('ul li a span').filter({ hasText: 'My Account' })
+
+    at HomePage.clickmyAccount (E:\OpencartPlaywright\pages\HomePage.ts:39:38)
+    at E:\OpencartPlaywright\tests\Logout.spec.ts:19:20 {
+  Symbol(step): {
+    location: {
+      file: 'E:\\OpencartPlaywright\\pages\\HomePage.ts',
+      line: 39,
+      column: 38,
+      function: 'HomePage.clickmyAccount'
+    },
+    category: 'pw:api',
+    title: "Click locator('ul li a span').filter({ hasText: 'My Account' })",
+    apiName: 'locator.click',
+    params: {
+      selector: 'ul li a span >> internal:has-text="My Account"i',
+      strict: true,
+      timeout: 0
+    },
+    group: undefined,
+    stepId: 'pw:api@35',
+    boxedStack: undefined,
+    steps: [],
+    attachmentIndices: [],
+    info: TestStepInfoImpl {
+      annotations: [],
+      _testInfo: [TestInfoImpl],
+      _stepId: 'pw:api@35',
+      _title: "Click locator('ul li a span').filter({ hasText: 'My Account' })",
+      _parentStep: [TestStepInfoImpl],
+      skip: [Function (anonymous)]
+    },
+    complete: [Function: complete],
+    endWallTime: 1780167857197,
+    error: {
+      message: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('ul li a span').filter({ hasText: 'My Account' })\x1B[22m\n",
+      stack: 'Error: locator.click: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('ul li a span').filter({ hasText: 'My Account' })\x1B[22m\n" +
+        '\n' +
+        '    at HomePage.clickmyAccount (E:\\OpencartPlaywright\\pages\\HomePage.ts:39:38)\n' +
+        '    at E:\\OpencartPlaywright\\tests\\Logout.spec.ts:19:20',
+      cause: undefined
+    }
+  }
+}

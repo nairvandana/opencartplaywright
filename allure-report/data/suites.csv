@@ -1,0 +1,3 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3432","New user registration test","chromium","2026-05-23","passed","2026-05-23","","AccountRegistration.spec.ts","",""
+"","3787","Login with valid credentials","chromium","2026-05-24","passed","2026-05-24","","Login.spec.ts","",""

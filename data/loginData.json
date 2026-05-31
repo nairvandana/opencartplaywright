@@ -1,0 +1,19 @@
+[
+
+    {
+       "testname":"Valid Login",
+        "username":"van@abc.com",
+        "password" :"test@123",
+        "expected":"Success"
+    },
+
+    {
+        "testname":"InValid Login",
+        "username":"vanwqewewe@abc.com",
+        "password" :"testwerwerer@123",
+        "expected":"FailedLogin"
+        
+    }
+
+
+]
